@@ -626,45 +626,199 @@ nav {
     background-color: #FFFFFF;
 }
 
-.grow {
+.growing {
     padding: 100px 0;
 }
 
-.grow-left {
+.growing-left {
     width: 45%;
     padding-top: 50px;
     float: left;
 }
 
-.grow h2 {
+.growing h2 {
     font-size: 32px;
     color: #33475b;
     letter-spacing: 1px;
     font-weight: 900;
 }
 
-.grow p {
+.growing p {
     color: #425b76;
     line-height: 1.7;
     padding: 30px 0;
 }
 
-.grow small {
+.growing small {
     font-size: 12px;
     color: #516f90;
 }
 
-.grow-right {
+.growing-right {
     width: 33.3333%;
     float: right;
 }
 
-.grow img {
+.growing img {
     width: 350px;
 }
 /* end of Section8 */
-
+/* Section9 */
 .section9 {
-    height: 656px;
+    /* height: 656px; only for construction purposes */
     background-color: #33475A;
+}
+
+footer {
+    letter-spacing: 1px;
+}
+
+footer li {
+    color: #ffffff;
+    list-style: none;
+}
+
+footer a {
+    color: #cbd6e2;
+}
+
+footer a:hover {
+    color: #7fd1de;
+}
+
+.bottom-menu {
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.bottom-menu h4{
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.btm-menu {
+    width: 25%;
+    float: left;
+}
+
+.bottom-menu li {
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.btm-menu4 li:last-child:after {
+    content: "\25BE";
+    display: inline;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.btm-menu4 li:last-child:hover {
+    cursor: pointer;
+}
+
+.social {
+    width: 25%;
+    float: right;
+    padding-bottom: 20px;
+}
+
+.social .cta {
+    font-size: 12px;
+    font-weight: 400;
+    color: #33475b;
+    background-color: #ffffff;
+    padding: 10px 15px;
+}
+
+.social-icon {
+    width: 16.6666%;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.social-icon i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.social-icon i:hover {
+    color: #7fd1de;
+    cursor: pointer;
+}
+
+.world {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.world ul {
+    display: inline-block;
+}
+
+.world li {
+    text-align: center;
+    float: left;
+    padding: 0 15px;
+}
+
+.copy {
+    border-top: 1px solid #7c98b6;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.copy-logo {
+    width: 50%;
+    float: left;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #cbd6e2;
+    padding: 5px 0;
+}
+
+.legal {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.legal a{
+    padding: 0 20px;
+}
+.social-icon .fab{
+    color: #cbd6e2;
+}
+/* end of Section9 */
+/* end of Boxes structure */
+/* Sticky */
+.sticky {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 15px;
+    padding: 15px;
+    background-color: #425b76;
+    border-radius: 50%;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 2px 24px,rgba(0,0,0,.2);
+    transition: box-shadow .1s ease-in-out;
+}
+
+.sticky i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.sticky:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2),0 4px 28px rgba(0,0,0,.3);
 }
