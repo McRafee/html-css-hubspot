@@ -239,11 +239,53 @@ nav {
     margin: 0 5px;
 }
 /* end of Section3 */
+/* Section4 */
 .section4 {
-    height: 755px;
+    /* height: 755px; only for construction purposes*/
     background-color: #FFF3EE;
 }
 
+.jumbotron-clouds {
+    background-image: url("../img/clouds-desktop.svg");
+}
+
+.text {
+    width: 40%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    float: left;
+}
+
+.text p {
+    color: #425b76;
+    line-height: 1.7;
+    padding: 20px 0;
+}
+
+.text small {
+    padding-bottom: 100px;
+}
+
+.cta-big {
+    font-size: 16px;
+    padding: 25px 45px;
+    display: block;
+}
+
+.hero-image img{
+    position: absolute;
+    top: 51%;
+    left: 0px;
+}
+
+.jumbotron-green {
+    height: 74px;
+    border-top: 3px solid #33475c;
+    border-bottom: 3px solid #33475c;
+    background-image: linear-gradient(45deg, #98e5dc, #00a48d);
+}
+/* end of Section4 */
 .section5 {
     height: 1520px;
     background-color: #F5F8FA;
